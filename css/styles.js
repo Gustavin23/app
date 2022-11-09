@@ -56,6 +56,11 @@ export const global = StyleSheet.create({
         marginLeft:"auto",
         paddingBottom:40,
     },
+    icon2:{
+        paddingTop:40,
+        marginRight:"auto",
+        marginLeft:"auto",
+    },
     scrolimg: {
         height:500,
         width:250,
@@ -67,8 +72,9 @@ export const global = StyleSheet.create({
     scrolatividade: {
         flexDirection: "row",
         marginLeft: 5,
-        paddingBottom:90,
+        paddingBottom: 10,
     },
+    // Sobre
     sobre:{
         paddingBottom:50,
     },
@@ -77,6 +83,18 @@ export const global = StyleSheet.create({
         color:"white",
         marginRight:"auto",
         marginLeft:"auto",
+        marginTop:20,
+        marginBottom:10,
+    },
+    imgsobre:{
+        height:400,
+        width:260,
+        resizeMode: "cover",
+        margin: 1,
+        marginLeft:"auto",
+        marginRight:"auto",
+        borderRadius: 10,
+        marginTop:20,
     },
     txtsobre:{
         fontSize:15,
@@ -86,13 +104,39 @@ export const global = StyleSheet.create({
         marginLeft:"auto",
         textAlign:"center"
     },
+    // Distribuicao
+    imgdistribuicao:{
+        width:350,
+        height:400,
+        marginRight:"auto",
+        marginLeft:"auto",
+        resizeMode: "cover",
+        margin: 1,
+        borderRadius: 10,
+        marginTop:20,
+
+    },
+    contato:{
+        display: "flex",
+        flexDirection:"row",
+        marginLeft: "auto",
+        marginRight: "auto",
+        paddingTop: 30
+    },
+    icon3:{
+        margin: 10,
+    },
     // Footer
     footer:{
         width:375,
         height:250,
-        backgroundColor:"black"
+        backgroundColor:"#1c1f22"
     },
     endereco:{
       color: "white",  
-    }
+      textAlign:"left",
+      marginLeft:"auto",
+      marginRight:"auto",
+    },
+    
 })
