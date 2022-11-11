@@ -22,7 +22,9 @@ import { SimpleLineIcons } from '@expo/vector-icons';
             <View style={global.sobre}>
                 <Text style={global.txttitlesobre}> Sobre Nós </Text>
                 <Image source={require("../../assets/teste1.jpg")} style={global.imgsobre}/>
-                <Text style={global.txtsobre}>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</Text>
+                <Text style={global.txtsobre}>Secret Street é uma marca de roupa para diversas idades focada em trazer de alguma forma um estilo street para todas as personalidades, juntando muitas tendências e
+                adaptando em uma só peça com qualidade, estilo, conforto e com cuidado e criatividade em cada detalhe das estampas. No processo de construção de nossa história, fomos
+                pegando tudo o que sentíamos falta em todas as peças que já usamos e aplicamos tudo para a satisfação de cada cliente.</Text>
                 <SimpleLineIcons name="arrow-down-circle" size={60} color="white" style={global.icon2}/>
             </View>
             <View style={global.distribuicao}>
